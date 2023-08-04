@@ -1,5 +1,15 @@
 import classes from "../styles/About.module.scss";
 import picture from "../images/me.jpeg";
+import html from "../icons/html.png";
+import css from "../icons/css.png";
+import sass from "../icons/sass.png";
+import tailwind from "../icons/tailwind.png";
+import javascript from "../icons/js.png";
+import typescript from "../icons/ts.png";
+import react from "../icons/react.png";
+import node from "../icons/node.png";
+import express from "../icons/express.png";
+import mysql from "../icons/mysql.png";
 
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
@@ -86,8 +96,8 @@ const About = () => {
             <br />
             <br /> As a{" "}
             <span className={classes.highlight}>Full Stack Developer</span>{" "}
-            driven by a passion for leaning new skills and technologies, I
-            bring my abilities and creativity to building{" "}
+            driven by a passion for leaning new skills and technologies, I bring
+            my abilities and creativity to building{" "}
             <span className={classes.highlight}>dynamic</span> and{" "}
             <span className={classes.highlight}>engaging</span> web
             applications.
@@ -101,72 +111,125 @@ const About = () => {
             <br />
             Technologies I have been working with:
           </p>
-          <ul className={classes.skills}>
-          <li
+
+          <div className={classes.skills}>
+            <div
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="250"
               data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
             >
-              HTML
-            </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="250"
-              data-aos-anchor-placement="top-bottom"
-            >
-              Sass
-            </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="350"
-              data-aos-anchor-placement="top-bottom"
-            >
-              TypeScript
-            </li>
-            <li
+              <img className={classes.icons} src={html} alt="html"></img>
+              <p>HTML</p>
+            </div>
+            <div
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="300"
               data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
             >
-              Express.js
-            </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-              data-aos-anchor-placement="top-bottom"
-            >
-              Tailwind
-            </li>
-            <li
+              <img className={classes.icons} src={css} alt="css"></img>
+              <p>CSS</p>
+            </div>
+            <div
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="350"
               data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
             >
-              React.js
-            </li>
-            <li
+              <img className={classes.icons} src={sass} alt="sass"></img>
+              <p>Sass</p>
+            </div>
+            <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="350"
+              data-aos-delay="400"
               data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
             >
-              MySQL
-            </li>
-            <li
+              <img
+                className={classes.icons}
+                src={tailwind}
+                alt="tailwind css"
+              ></img>
+              <p>Tailwind</p>
+            </div>
+            <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay="200"
+              data-aos-delay="450"
               data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
             >
-              JavaScript
-            </li>
-          </ul>
+              <img
+                className={classes.icons}
+                src={javascript}
+                alt="javascript"
+              ></img>
+              <p>JavaScript</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
+            >
+              <img
+                className={classes.icons}
+                src={typescript}
+                alt="typescript"
+              ></img>
+              <p>TypeScript</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="550"
+              data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
+            >
+              <img className={classes.icons} src={react} alt="react.js"></img>
+              <p>React.js</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+              data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
+            >
+              <img className={classes.icons} src={node} alt="node.js"></img>
+              <p>Node.js</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="650"
+              data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
+            >
+              <img
+                className={classes.express}
+                src={express}
+                alt="express.js"
+              ></img>
+              <p>Express.js</p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="700"
+              data-aos-anchor-placement="top-bottom"
+              className={classes.iconAndTitle}
+            >
+              <img className={classes.icons} src={mysql} alt="mysql"></img>
+              <p>MySQL</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
