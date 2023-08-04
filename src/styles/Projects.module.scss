@@ -6,7 +6,7 @@
   @include sectionTitle();
 
   .app-name {
-    @include displayFlex(space-around, none);
+    @include displayFlex(center, none);
     @include mediaAppName();
     margin: $top-section;
     .item {
@@ -31,10 +31,12 @@
         list-style-type: none;
         padding: 0;
         display: flex;
+        flex-wrap: wrap;
         justify-content: flex-start;
         @include mediaMadeWith();
         li {
           margin-right: 1rem;
+          margin-bottom: 0.2rem;
         }
       }
       .icons {

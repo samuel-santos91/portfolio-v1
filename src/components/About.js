@@ -85,13 +85,14 @@ const About = () => {
             <span className={classes.highlight}>problem-solving</span>.
             <br />
             <br /> As a{" "}
-            <span className={classes.highlight}>Frontend Developer</span> driven
-            by a passion for leaning new skills and technologies, I have been
-            focusing my studies on{" "}
+            <span className={classes.highlight}>Full Stack Developer</span>{" "}
+            driven by a passion for leaning new skills and technologies, I have
+            been focusing my studies on{" "}
             <span className={classes.highlight}>HTML</span>,{" "}
             <span className={classes.highlight}>CSS</span>,{" "}
-            <span className={classes.highlight}>Javascript</span> and{" "}
-            <span className={classes.highlight}>Node.js</span>.
+            <span className={classes.highlight}>Javascript</span>,{" "}
+            <span className={classes.highlight}>Node.js</span> and{" "}
+            <span className={classes.highlight}>SQL</span>
             <br />
             <br /> My goal is to become a{" "}
             <span className={classes.highlight}>Full Stack Developer</span> and
@@ -110,30 +111,7 @@ const About = () => {
             Technologies I have been working with recently:
           </p>
           <ul className={classes.skills}>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="100"
-              data-aos-anchor-placement="top-bottom"
-            >
-              HTML
-            </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="150"
-              data-aos-anchor-placement="top-bottom"
-            >
-              CSS
-            </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="200"
-              data-aos-anchor-placement="top-bottom"
-            >
-              Bootstrap
-            </li>
+         
             <li
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -142,29 +120,29 @@ const About = () => {
             >
               Sass
             </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-              data-aos-anchor-placement="top-bottom"
-            >
-              Tailwind CSS
-            </li>
-            <li
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-              data-aos-anchor-placement="top-bottom"
-            >
-              Javascript
-            </li>
-            <li
+              <li
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="350"
               data-aos-anchor-placement="top-bottom"
             >
               TypeScript
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Express.js
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Tailwind
             </li>
             <li
               data-aos="fade-up"
@@ -180,7 +158,15 @@ const About = () => {
               data-aos-delay="350"
               data-aos-anchor-placement="top-bottom"
             >
-              Express.js
+              MySQL
+            </li>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Javascript
             </li>
           </ul>
         </div>

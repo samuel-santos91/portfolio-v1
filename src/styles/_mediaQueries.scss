@@ -118,6 +118,7 @@
 @mixin mediaMadeWith() {
   @media (max-width: 768px) {
     margin: 0;
+    justify-content: center;
   }
 }
 @mixin mediaItemIcons() {

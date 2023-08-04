@@ -10,7 +10,7 @@ const Intro = () => {
           {" "}
           A&nbsp;
           <span className={`${classes.highlight} ${classes["animation-one"]}`}>
-            front-end
+            full stack
           </span>{" "}
           developer
           <br /> that loves to

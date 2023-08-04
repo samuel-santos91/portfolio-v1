@@ -2,6 +2,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 
 import classes from "../styles/Projects.module.scss";
+import petsitting from "../images/pet_sitting.png"
 import foodOrder from "../images/foodorder.png";
 import dictionary from "../images/dictionary.png";
 import tasklist from "../images/tasklist.png";
@@ -13,6 +14,76 @@ const Projects = () => {
       <div className={classes["section-title"]}>
         <h2 className={classes.section}>Projects </h2>
         <hr />
+      </div>
+
+      <div className={classes["app-name"]}>
+        <a
+          href="https://github.com/samuel-santos91/pet-sitting-services-app"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          <img src={petsitting} alt="food order webpage screenshot" />
+        </a>
+        <div className={classes.item}>
+          <h3 className={classes.title}>Pet Sitting Services</h3>
+          <p className={classes.description}>
+            Full stack app that allows you to join as a customer or a sitter to
+            request or provide services for your or someone else's pet.
+          </p>
+          <ul className={classes["made-with"]}>
+            <li
+              data-aos="flip-left"
+              data-aos-duration="1200"
+              data-aos-anchor-placement="top-bottom"
+            >
+              {" "}
+              React.js
+            </li>
+            <li
+              data-aos="flip-left"
+              data-aos-duration="1200"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Tailwind
+            </li>
+            <li
+              data-aos="flip-left"
+              data-aos-duration="1200"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Express.js
+            </li>
+            <li
+              data-aos="flip-left"
+              data-aos-duration="1200"
+              data-aos-anchor-placement="top-bottom"
+            >
+              TypeScript
+            </li>
+            <li
+              data-aos="flip-left"
+              data-aos-duration="1200"
+              data-aos-anchor-placement="top-bottom"
+            >
+              MySQL
+            </li>
+          </ul>
+          <div className={classes.icons}>
+            <ul>
+              <li className={classes.github}>
+                <a
+                  href="https://github.com/samuel-santos91/pet-sitting-services-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsGithub size={40} aria-label="github link" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div className={classes["app-name"]}>
@@ -109,7 +180,7 @@ const Projects = () => {
               data-aos-duration="1200"
               data-aos-anchor-placement="top-bottom"
             >
-              API
+              REST API
             </li>
           </ul>
           <div className={classes.icons}>
