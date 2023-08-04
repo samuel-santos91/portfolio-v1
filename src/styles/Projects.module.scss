@@ -47,10 +47,10 @@
           padding: 0;
           @include mediaItemIcons();
           .github {
-            margin: 0 2rem 0 0;
             @include iconTag(scale(1.1)); 
           }
           .webpage {
+            margin-left: 1rem;
             @include iconWebTag();
           }
         }

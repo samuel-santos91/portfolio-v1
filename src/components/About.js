@@ -86,16 +86,7 @@ const About = () => {
             <br />
             <br /> As a{" "}
             <span className={classes.highlight}>Full Stack Developer</span>{" "}
-            driven by a passion for leaning new skills and technologies, I have
-            been focusing my studies on{" "}
-            <span className={classes.highlight}>HTML</span>,{" "}
-            <span className={classes.highlight}>CSS</span>,{" "}
-            <span className={classes.highlight}>Javascript</span>,{" "}
-            <span className={classes.highlight}>Node.js</span> and{" "}
-            <span className={classes.highlight}>SQL</span>
-            <br />
-            <br /> My goal is to become a{" "}
-            <span className={classes.highlight}>Full Stack Developer</span> and
+            driven by a passion for leaning new skills and technologies, I
             bring my abilities and creativity to building{" "}
             <span className={classes.highlight}>dynamic</span> and{" "}
             <span className={classes.highlight}>engaging</span> web
@@ -108,10 +99,17 @@ const About = () => {
             <span className={classes.highlight}>excellence</span>.
             <br />
             <br />
-            Technologies I have been working with recently:
+            Technologies I have been working with:
           </p>
           <ul className={classes.skills}>
-         
+          <li
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="250"
+              data-aos-anchor-placement="top-bottom"
+            >
+              HTML
+            </li>
             <li
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -120,7 +118,7 @@ const About = () => {
             >
               Sass
             </li>
-              <li
+            <li
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="350"
@@ -166,7 +164,7 @@ const About = () => {
               data-aos-delay="200"
               data-aos-anchor-placement="top-bottom"
             >
-              Javascript
+              JavaScript
             </li>
           </ul>
         </div>
