@@ -78,6 +78,11 @@
     width: 100%;
   }
 }
+@mixin mediaIconTitle() {
+  @media (max-width: 500px) {
+    font-size: .6rem;
+  }
+}
 
 /// PROJECTS SECTION
 @mixin mediaAppName() {
